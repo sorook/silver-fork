@@ -14,6 +14,13 @@ export default function Stay() {
       <img className="stay-img" alt={stay.name} src={stay.img} />
       <h2>{stay.name}</h2>
       <p className="stay-description">{stay.description}</p>
+      <h3 className="stayTitle">{stay.title}</h3>
+      
+      <ul>
+      {stay.long_description.map((review)=>
+        <li className="stayLong"> {review} </li>
+      )}
+      </ul>
     </div>
   ) : (
     <></>

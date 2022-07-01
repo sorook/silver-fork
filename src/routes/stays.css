@@ -4,6 +4,27 @@
   height: 50vh;
 }
 
+h2 {
+  color: aliceblue;
+}
+
 .stay-description {
   font-style: italic;
+}
+
+.stayTitle {
+  color: rgb(255, 51, 0);
+  font-style: oblique;
+}
+
+.stayLong {
+  color: rgb(13, 5, 253);
+}
+
+p {
+  color: rgb(0, 217, 255);
+}
+
+ul {
+  color: azure;
 }
